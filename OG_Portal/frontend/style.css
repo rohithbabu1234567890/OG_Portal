@@ -1,0 +1,45 @@
+/* Set the background color */
+body {
+    background-color: rgb(15, 63, 79);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the content */
+header,
+main,
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation links */
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    background-color: lightblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: royalblue;
+}
+
+/* Button styling */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
